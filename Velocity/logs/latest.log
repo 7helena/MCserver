@@ -1,0 +1,17 @@
+[09:09:54] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-ba014927-b539)...
+[09:09:55] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[09:09:55] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[09:09:55] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[09:09:55] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[09:09:55] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25564
+[09:09:55] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.73s)!
+[09:11:31] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] 7helena (/127.0.0.1:63505) has connected
+[09:11:32] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 7helena -> lobby has connected
+[09:13:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] 7helena (/127.0.0.1:63505) has disconnected
+[09:13:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 7helena -> lobby has disconnected
+[09:13:47] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] 7helena (/127.0.0.1:63569) has connected
+[09:13:47] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 7helena -> lobby has connected
+[09:17:36] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] 7helena (/127.0.0.1:63569) has disconnected
+[09:17:36] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 7helena -> lobby has disconnected
+[09:17:46] [Thread-0/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[09:17:46] [Thread-0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25564
