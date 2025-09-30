@@ -1,5 +1,5 @@
-[13:59:06] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[13:59:06] [main/INFO]: Loading 42 mods:
+[17:26:07] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[17:26:07] [main/INFO]: Loading 42 mods:
 	- fabric-api 0.133.4+1.21.8
 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -49,31 +49,31 @@
 	   \-- com_moandjiezana_toml_toml4j 0.7.2
 	- java 25
 	- minecraft 1.21.8
-[13:59:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Joshua/Documents/MCserver/JoooshShack/Lobby/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:59:07] [main/INFO]: Compatibility level set to JAVA_21
-[13:59:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[13:59:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:59:22] [main/INFO]: Loaded 1407 recipes
-[13:59:22] [main/INFO]: Loaded 1520 advancements
-[13:59:22] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.112 ms
-[13:59:22] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[13:59:22] [Server thread/INFO]: Loading properties
-[13:59:22] [Server thread/INFO]: Default game type: SURVIVAL
-[13:59:22] [Server thread/INFO]: Generating keypair
-[13:59:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:59:22] [Server thread/INFO]: Using default channel type
-[13:59:23] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[13:59:23] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
-[13:59:23] [Server thread/WARN]: Perhaps a server is already running on that port?
-[13:59:23] [Server thread/ERROR]: Encountered an unexpected exception
+[17:26:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Joshua/Documents/MCserver/JoooshShack/Lobby/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:26:07] [main/INFO]: Compatibility level set to JAVA_21
+[17:26:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[17:26:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:26:21] [main/INFO]: Loaded 1407 recipes
+[17:26:21] [main/INFO]: Loaded 1520 advancements
+[17:26:21] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.888 ms
+[17:26:21] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[17:26:21] [Server thread/INFO]: Loading properties
+[17:26:21] [Server thread/INFO]: Default game type: SURVIVAL
+[17:26:21] [Server thread/INFO]: Generating keypair
+[17:26:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:26:21] [Server thread/INFO]: Using default channel type
+[17:26:21] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[17:26:21] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[17:26:21] [Server thread/WARN]: Perhaps a server is already running on that port?
+[17:26:21] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.IllegalStateException: Failed to initialize server
 	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:729) [server-intermediary.jar:?]
 	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) [server-intermediary.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[13:59:23] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Joshua\Documents\MCserver\JoooshShack\Lobby\crash-reports\crash-2025-09-30_13.59.23-server.txt
-[13:59:23] [Server thread/INFO]: Stopping server
-[13:59:23] [Server thread/INFO]: Saving worlds
-[13:59:23] [Server thread/ERROR]: Exception stopping the server
+[17:26:21] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Joshua\Documents\MCserver\JoooshShack\Lobby\crash-reports\crash-2025-09-30_17.26.21-server.txt
+[17:26:21] [Server thread/INFO]: Stopping server
+[17:26:21] [Server thread/INFO]: Saving worlds
+[17:26:21] [Server thread/ERROR]: Exception stopping the server
 java.lang.NullPointerException: Cannot invoke "net.minecraft.class_3218.method_8621()" because "$$5" is null
 	at knot/net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:569) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:628) ~[server-intermediary.jar:?]
