@@ -1,13 +1,25 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Base directories
-BASE_DIR="$HOME/MCserver/JoooshShack"
+# ==========================
+# Configurable variables
+# ==========================
+MC_BASE="$HOME/MCserver/JoooshShack"
 VELOCITY_DIR="$HOME/MCserver/Velocity"
 LOG_DIR="$HOME/MCserver/logs"
 mkdir -p "$LOG_DIR"
 
-# Check tmux availability
+# Servers: name => "minRAM maxRAM"
+declare -A SERVERS=(
+  ["Lobby"]="1G 2G"
+  ["Adventure"]="1G 2G"
+)
+
+VELOCITY_MEM=("512M" "1G")  # min and max RAM for Velocity
+
+# ==========================
+# Check tmux
+# ==========================
 if command -v tmux >/dev/null 2>&1; then
   HAS_TMUX=1
 else
@@ -15,19 +27,14 @@ else
   echo "tmux not found — using background nohup processes."
 fi
 
-# Servers and memory allocations
-declare -A SERVERS
-SERVERS=(
-  ["lobby"]="1G 2G"
-  ["adventure"]="1G 2G"
-  ["survival"]="1G 2G"
-)
-
+# ==========================
+# Functions
+# ==========================
 start_server() {
   local name="$1"
   local mem_min="$2"
   local mem_max="$3"
-  local dir="$BASE_DIR/$name"
+  local dir="$MC_BASE/$name"
   local jar="fabric-server.jar"
 
   if [ ! -d "$dir" ]; then
@@ -47,8 +54,8 @@ start_server() {
 }
 
 start_velocity() {
-  local mem_min="512M"
-  local mem_max="1G"
+  local mem_min="${VELOCITY_MEM[0]}"
+  local mem_max="${VELOCITY_MEM[1]}"
   local jar="velocity.jar"
 
   if [ ! -d "$VELOCITY_DIR" ]; then
@@ -57,28 +64,31 @@ start_velocity() {
   fi
 
   if [ "$HAS_TMUX" -eq 1 ]; then
-    tmux new-session -d -s "velocity" \
+    tmux new-session -d -s "Velocity" \
       "bash -lc 'cd \"$VELOCITY_DIR\" && exec java -Xms${mem_min} -Xmx${mem_max} -jar \"$jar\" nogui'"
-    echo "Started tmux session: velocity"
+    echo "Started tmux session: Velocity"
   else
     nohup bash -c "cd \"$VELOCITY_DIR\" && java -Xms${mem_min} -Xmx${mem_max} -jar \"$jar\" nogui" \
       > "$LOG_DIR/velocity.log" 2>&1 &
-    echo "Started velocity in background. Log: $LOG_DIR/velocity.log"
+    echo "Started Velocity in background. Log: $LOG_DIR/velocity.log"
   fi
 }
 
+# ==========================
+# Start servers
+# ==========================
 echo "Starting Minecraft servers..."
-
-# Start all servers
 for name in "${!SERVERS[@]}"; do
   mems=(${SERVERS[$name]})
   start_server "$name" "${mems[0]}" "${mems[1]}"
 done
 
-# Start Velocity proxy
+# Start Velocity
 start_velocity
 
-# Show running tmux sessions
+# ==========================
+# Show running sessions
+# ==========================
 if [ "$HAS_TMUX" -eq 1 ]; then
   echo
   tmux ls || echo "No tmux sessions running."
