@@ -1,5 +1,5 @@
-[17:26:07] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[17:26:07] [main/INFO]: Loading 42 mods:
+[18:12:58] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[18:12:58] [main/INFO]: Loading 42 mods:
 	- fabric-api 0.133.4+1.21.8
 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -49,39 +49,54 @@
 	   \-- com_moandjiezana_toml_toml4j 0.7.2
 	- java 25
 	- minecraft 1.21.8
-[17:26:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Joshua/Documents/MCserver/JoooshShack/Adventure/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:26:07] [main/INFO]: Compatibility level set to JAVA_21
-[17:26:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[17:26:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:26:21] [main/INFO]: Loaded 1407 recipes
-[17:26:21] [main/INFO]: Loaded 1520 advancements
-[17:26:21] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.265 ms
-[17:26:21] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[17:26:21] [Server thread/INFO]: Loading properties
-[17:26:21] [Server thread/INFO]: Default game type: SURVIVAL
-[17:26:21] [Server thread/INFO]: Generating keypair
-[17:26:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:26:21] [Server thread/INFO]: Using default channel type
-[17:26:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:26:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:26:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:26:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:26:21] [Server thread/INFO]: Preparing level "JoooshShack"
-[17:26:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:26:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:26:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:26:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:26:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:26:23] [Server thread/INFO]: Time elapsed: 1663 ms
-[17:26:23] [Server thread/INFO]: Done (1.967s)! For help, type "help"
-[17:26:44] [Server thread/INFO]: Stopping the server
-[17:26:44] [Server thread/INFO]: Stopping server
-[17:26:44] [Server thread/INFO]: Saving players
-[17:26:44] [Server thread/INFO]: Saving worlds
-[17:26:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:overworld
-[17:26:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:the_nether
-[17:26:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:the_end
-[17:26:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (JoooshShack): All chunks are saved
-[17:26:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:26:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:26:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:12:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Joshua/Documents/MCserver/JoooshShack/Adventure/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:12:58] [main/INFO]: Compatibility level set to JAVA_21
+[18:12:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[18:13:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:13:12] [main/INFO]: Loaded 1407 recipes
+[18:13:12] [main/INFO]: Loaded 1520 advancements
+[18:13:12] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.281 ms
+[18:13:12] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[18:13:12] [Server thread/INFO]: Loading properties
+[18:13:12] [Server thread/INFO]: Default game type: SURVIVAL
+[18:13:12] [Server thread/INFO]: Generating keypair
+[18:13:12] [Server thread/INFO]: Starting Minecraft server on *:25562
+[18:13:13] [Server thread/INFO]: Using default channel type
+[18:13:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:13:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:13:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:13:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:13:13] [Server thread/INFO]: Preparing level "JoooshShack"
+[18:13:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:13:17] [Server thread/INFO]: Time elapsed: 3841 ms
+[18:13:17] [Server thread/INFO]: Done (4.552s)! For help, type "help"
+[18:14:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:15:20] [Server thread/INFO]: 7helena[/127.0.0.1:64811] logged in with entity id 31 at (-137.35492488016993, 100.0, 130.54772577061482)
+[18:15:20] [Server thread/INFO]: 7helena joined the game
+[18:15:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2186ms or 43 ticks behind
+[18:15:36] [Server thread/INFO]: [7helena: Set own game mode to Creative Mode]
+[18:15:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3181ms or 63 ticks behind
+[18:15:41] [Server thread/INFO]: [7helena: Set the time to 1000]
+[18:15:59] [Server thread/WARN]: 7helena moved too quickly! 7.210050611176683,-6.979033981474345,1.1884826051097264
+[18:16:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5618ms or 112 ticks behind
+[18:16:18] [Server thread/INFO]: 7helena lost connection: Disconnected
+[18:16:18] [Server thread/INFO]: 7helena left the game
+[18:16:32] [Server thread/INFO]: Stopping the server
+[18:16:32] [Server thread/INFO]: Stopping server
+[18:16:32] [Server thread/INFO]: Saving players
+[18:16:32] [Server thread/INFO]: Saving worlds
+[18:16:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:overworld
+[18:16:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:the_end
+[18:16:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:the_nether
+[18:16:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (JoooshShack): All chunks are saved
+[18:16:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:16:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:16:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

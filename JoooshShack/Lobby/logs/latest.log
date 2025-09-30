@@ -1,5 +1,5 @@
-[17:26:07] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[17:26:07] [main/INFO]: Loading 42 mods:
+[18:12:58] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[18:12:58] [main/INFO]: Loading 42 mods:
 	- fabric-api 0.133.4+1.21.8
 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -49,35 +49,51 @@
 	   \-- com_moandjiezana_toml_toml4j 0.7.2
 	- java 25
 	- minecraft 1.21.8
-[17:26:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Joshua/Documents/MCserver/JoooshShack/Lobby/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:26:07] [main/INFO]: Compatibility level set to JAVA_21
-[17:26:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[17:26:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:26:21] [main/INFO]: Loaded 1407 recipes
-[17:26:21] [main/INFO]: Loaded 1520 advancements
-[17:26:21] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.888 ms
-[17:26:21] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[17:26:21] [Server thread/INFO]: Loading properties
-[17:26:21] [Server thread/INFO]: Default game type: SURVIVAL
-[17:26:21] [Server thread/INFO]: Generating keypair
-[17:26:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:26:21] [Server thread/INFO]: Using default channel type
-[17:26:21] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[17:26:21] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
-[17:26:21] [Server thread/WARN]: Perhaps a server is already running on that port?
-[17:26:21] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.IllegalStateException: Failed to initialize server
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:729) [server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) [server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[17:26:21] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Joshua\Documents\MCserver\JoooshShack\Lobby\crash-reports\crash-2025-09-30_17.26.21-server.txt
-[17:26:21] [Server thread/INFO]: Stopping server
-[17:26:21] [Server thread/INFO]: Saving worlds
-[17:26:21] [Server thread/ERROR]: Exception stopping the server
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_3218.method_8621()" because "$$5" is null
-	at knot/net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:569) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:628) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3176.method_3782(class_3176.java:543) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:748) [server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) [server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[18:12:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Joshua/Documents/MCserver/JoooshShack/Lobby/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:12:58] [main/INFO]: Compatibility level set to JAVA_21
+[18:12:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[18:13:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:13:12] [main/INFO]: Loaded 1407 recipes
+[18:13:12] [main/INFO]: Loaded 1520 advancements
+[18:13:12] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.621 ms
+[18:13:12] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[18:13:12] [Server thread/INFO]: Loading properties
+[18:13:12] [Server thread/INFO]: Default game type: SURVIVAL
+[18:13:12] [Server thread/INFO]: Generating keypair
+[18:13:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:13:12] [Server thread/INFO]: Using default channel type
+[18:13:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:13:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:13:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:13:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:13:13] [Server thread/INFO]: Preparing level "JoooshShack"
+[18:13:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:13:17] [Worker-Main-1/INFO]: Preparing spawn area: 61%
+[18:13:17] [Server thread/INFO]: Time elapsed: 4126 ms
+[18:13:17] [Server thread/INFO]: Done (4.534s)! For help, type "help"
+[18:14:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:15:03] [Server thread/INFO]: 7helena[/127.0.0.1:64808] logged in with entity id 77 at (-1.354484329801171, 121.0, 48.2110783685732)
+[18:15:04] [Server thread/INFO]: 7helena joined the game
+[18:15:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2156ms or 43 ticks behind
+[18:15:18] [Server thread/INFO]: 7helena lost connection: Disconnected
+[18:15:18] [Server thread/INFO]: 7helena left the game
+[18:16:18] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:16:28] [Server thread/INFO]: Stopping the server
+[18:16:28] [Server thread/INFO]: Stopping server
+[18:16:28] [Server thread/INFO]: Saving players
+[18:16:28] [Server thread/INFO]: Saving worlds
+[18:16:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:overworld
+[18:16:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:the_end
+[18:16:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[JoooshShack]'/minecraft:the_nether
+[18:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (JoooshShack): All chunks are saved
+[18:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
